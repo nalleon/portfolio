@@ -121,7 +121,7 @@ const projects = [
 
 
 <style scoped>
-.logo {
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -134,23 +134,23 @@ const projects = [
 
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
-}
+} */
 </style>
 <template>
   <Navbar />
-  <div id="top" class="min-h-screen bg-black text-white">
+  <div id="top" class="min-h-screen bg-slate text-white">
     <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-10">
       <header class="mb-16">
-        <h1 class="text-4xl font-bold">Tu Nombre</h1>
-        <p class="mt-2 text-white/70">Frontend Developer · Vue · Tailwind</p>
+        <h1 class="text-4xl font-bold">Nabil L. A. </h1>
+        <p class="mt-2 text-white/70">Desarrollador</p>
       </header>
       <section id="sobre-mi" class="mb-16">
         <h2 class="text-2xl font-semibold">Sobre mí</h2>
         <p class="mt-4 text-white/70">
-          Aquí escribirás una breve presentación personal.
+          Técnico superior en DAM formándose en DAW y apasionado de la tecnología.
         </p>
       </section>
-      <section id="frameworks" class="mb-16">
+      <section id="habilidades" class="mb-16">
         <h2 class="text-2xl font-semibold">Habilidades</h2>
 
         <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -174,7 +174,7 @@ const projects = [
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <ProjectCard v-for="project in group.projects" :key="project.title" :title="project.title"
-                :description="project.description" />
+                :description="project.description" :link="project.link"/>
             </div>
           </div>
         </div>
@@ -184,11 +184,15 @@ const projects = [
         <h2 class="text-2xl font-semibold">Contacto</h2>
         <div class="mt-6 rounded-xl border border-white/10 bg-white/5 p-6">
           <p class="text-white/70">¿Te interesa contactar conmigo?</p>
-          <div class="mt-6 flex flex-col sm:flex-row gap-4">
-            <a href="mailto:tuemail@correo.com" class="bg-white text-black px-4 py-2 rounded-lg">
-              Enviar email
+          <div class="mt-6 flex flex-col justify-center sm:flex-row gap-4">
+            <a href="mailto:nabil14716@gmail.com" class="bg-white text-black px-2 py-2 rounded-full">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+              </svg>
             </a>
-            <a href="https://github.com/nalleon" class="border px-4 py-2 rounded-lg">
+            <a href="https://github.com/nalleon" class="bg-white text-black px-2 py-2 rounded-full">
               GitHub
             </a>
           </div>
