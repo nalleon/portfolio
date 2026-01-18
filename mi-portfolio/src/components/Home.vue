@@ -27,7 +27,7 @@ import projects from '@/data/projects.json'
                 </p>
 
                 <div class="mt-8 flex justify-center">
-                    <img src="../assets/other/home-img.jpg" alt="Avatar" class="w-50 h-50 rounded-full object-cover
+                    <img src="../assets/img/home-img.jpg" alt="Avatar" class="w-50 h-50 rounded-full object-cover
                     border border-white/10 shadow-lg" />
                 </div>
 
