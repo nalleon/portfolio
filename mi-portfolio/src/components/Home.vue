@@ -3,118 +3,10 @@ import ProjectCard from './ProjectCard.vue'
 import SkillCard from './SkillsCard.vue'
 import FrameworkCard from './FrameworksCard.vue'
 import Navbar from './Navbar.vue'
-
-import vueIcon from '@/assets/frameworks/vue.svg'
-import reactIcon from '@/assets/frameworks/react.svg'
-import springIcon from '@/assets/frameworks/spring.svg'
-import laravelIcon from '@/assets/frameworks/laravel.svg'
-
-import tailwindIcon from '@/assets/frameworks/tailwind.svg'
-import djangoIcon from '@/assets/frameworks/django.svg'
-import bootstrapIcon from '@/assets/frameworks/bootstrap.svg'
-
-import javaIcon from '@/assets/langs/java.svg'
-import phpIcon from '@/assets/langs/php.svg'
-import jsIcon from '@/assets/langs/js.svg'
-import tsIcon from '@/assets/langs/ts.svg'
-import pythonIcon from '@/assets/langs/python.svg'
-
-import dockerIcon from '@/assets/other/docker.svg'
-import mavenIcon from '@/assets/other/maven.svg'
-import nginxIcon from '@/assets/other/nginx.svg'
-
-const frameworkCards = [
-    {
-        title: 'React+ReactNative, Vue, Tailwind CSS & Bootstrap',
-        description: 'Desarrollo de SPAs modernas y aplicaciones frontend.',
-        icons: [
-            { src: reactIcon, alt: 'React' },
-            { src: vueIcon, alt: 'Vue' },
-            { src: tailwindIcon, alt: 'Tailwind' },
-            { src: bootstrapIcon, alt: 'Bootstrap' }
-        ]
-    },
-    {
-        title: 'Spring Boot, Laravel & Django',
-        description: 'APIs REST, arquitectura backend y lógica de negocio.',
-        icons: [
-            { src: springIcon, alt: 'Spring Boot' },
-            { src: laravelIcon, alt: 'Laravel' },
-            { src: djangoIcon, alt: 'Django' }
-        ]
-    }
-]
-
-const skills = [
-    {
-        title: 'Java',
-        description: 'Desarrollo en entorno de servidor.',
-        icon: javaIcon,
-        level: 5
-    },
-    {
-        title: 'PHP',
-        description: 'Desarrollo en entorno de servidor.',
-        icon: phpIcon,
-        level: 4
-    },
-    {
-        title: 'JavaScript',
-        description: 'Desarrollo en entorno de cliente.',
-        icon: jsIcon,
-        level: 5
-    },
-    {
-        title: 'TypeScript',
-        description: 'Desarrollo en entorno de cliente.',
-        icon: tsIcon,
-        level: 5
-    },
-    {
-        title: 'Python',
-        description: 'Desarrollo en entorno de servidor.',
-        icon: pythonIcon,
-        level: 4
-    },
-    {
-        title: 'Nginx',
-        description: 'Despliegue de aplicaciones.',
-        icon: nginxIcon,
-        level: 4
-    },
-    {
-        title: 'Docker',
-        description: 'Despliegue de aplicaciones.',
-        icon: dockerIcon,
-        level: 4
-    },
-    {
-        title: 'Maven',
-        description: 'Creación y gestión de proyectos Java.',
-        icon: mavenIcon,
-        level: 5
-    }
-]
-
-
-const projects = [
-    {
-        period: '2024–2025',
-        projects: [
-            { title: 'MGS - Wiki', description: 'Java + Spring', link: 'https://github.com/nalleon/mgs-project' },
-            { title: 'Adivina el personaje de FE8', description: 'TypeScript + Vue, CSS + Tailwind', link: 'https://github.com/mackstm/fire-emblem-project' },
-            { title: 'Buscaminas', description: 'TypeScript + React, CSS + Bootstrap', link: 'https://github.com/nalleon/minesweeper' }
-        ]
-    },
-    {
-        period: '2025–2026',
-        projects: [
-            { title: 'JSpotify', description: 'CSS, HTML y JS', link: 'https://github.com/nalleon/jspotify' },
-            { title: 'Tribu', description: 'Python + Django, CSS', link: 'https://github.com/nalleon/tribu' },
-            { title: 'Lumino', description: 'Python + Django, CSS + Bootstrap, Zensical', link: 'https://github.com/nalleon/lumino' }
-        ]
-    }
-]
+import ContactForm from './ContactForm.vue'
+import frameworkCards from '@/data/frameworks.json'
+import skills from '@/data/skills.json'
+import projects from '@/data/projects.json'
 
 </script>
 
@@ -226,6 +118,7 @@ const projects = [
             <section id="contacto" class="scroll-mt-8 mb-16">
                 <div class="mt-6 rounded-xl border border-white/10 bg-white/5 p-6">
                     <p class="text-white/70">¿Te interesa contactar conmigo?</p>
+                    <ContactForm />
                     <div class="mt-6 flex flex-col justify-center sm:flex-row gap-4">
                         <a href="mailto:nabil14716@gmail.com" class="bg-slate-700 text-black px-2 py-2 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
