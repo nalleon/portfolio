@@ -1,7 +1,7 @@
 <template>
     <div class="border border-white/10 rounded-lg p-4 bg-white/5 hover:bg-white/10 transition">
         <div class="flex items-center gap-3">
-            <div class="h-10 w-10 rounded-md bg-white/10 flex items-center justify-center">
+            <div class="h-10 w-10 rounded-md bg-slate-700 flex items-center justify-center">
                 <img :src="icon" :alt="title" class="h-6 w-6 object-contain" />
             </div>
 
