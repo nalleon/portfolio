@@ -1,6 +1,6 @@
 <template>
     <header class="sticky top-0 bg-slate/80 backdrop-blur border-b border-white/10">
-        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center pt-5">
             <span class="font-semibold">Nabil L. A.</span>
 
             <nav class="flex gap-6 text-sm text-white/70">

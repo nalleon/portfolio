@@ -47,13 +47,13 @@ import projects from '@/data/projects.json'
             </header>
 
 
-            <section id="sobre-mi" class="scroll-mt-8 mb-16">
+            <section id="sobre-mi" class="scroll-mt-28 mb-16">
                 <h2 class="text-2xl font-semibold">Sobre mí</h2>
                 <p class="mt-4 text-white/70">
                     Técnico superior en DAM formándose en DAW y apasionado de la tecnología.
                 </p>
             </section>
-            <section id="habilidades" class="scroll-mt-8 mb-16">
+            <section id="habilidades" class="scroll-mt-28 mb-16">
                 <h2 class="text-2xl font-semibold">Habilidades</h2>
 
                 <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -67,7 +67,7 @@ import projects from '@/data/projects.json'
                 </div>
             </section>
 
-            <section id="proyectos" class="scroll-mt-8 mb-16">
+            <section id="proyectos" class="scroll-mt-28 mb-16">
                 <h2 class="text-2xl font-semibold">Proyectos</h2>
                 <div class="mt-6 space-y-12">
                     <div v-for="group in projects" :key="group.period">
@@ -115,7 +115,7 @@ import projects from '@/data/projects.json'
                 </div>
             </section>
 
-            <section id="contacto" class="scroll-mt-8 mb-16">
+            <section id="contacto" class="scroll-mt-28 mb-16">
                 <div class="mt-6 rounded-xl border border-white/10 bg-white/5 p-6">
                     <p class="text-white/70">¿Te interesa contactar conmigo?</p>
                     <ContactForm />
