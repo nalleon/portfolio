@@ -1,3 +1,14 @@
+<script setup>
+import ProjectCard from './ProjectCard.vue'
+import SkillCard from './SkillsCard.vue'
+import FrameworkCard from './FrameworkCard.vue'
+import Navbar from './Navbar.vue'
+import ContactForm from './ContactForm.vue'
+import frameworkCards from '@/data/frameworks.json'
+import skills from '@/data/skills.json'
+import projects from '@/data/projects.json'
+</script>
+
 <template>
     <Navbar />
     <div id="top" class="min-h-screen bg-slate text-white">
@@ -150,13 +161,3 @@
     </div>
 </template>
 
-<script setup>
-import ProjectCard from './ProjectCard.vue'
-import SkillCard from './SkillsCard.vue'
-import FrameworkCard from './FrameworksCard.vue'
-import Navbar from './Navbar.vue'
-import ContactForm from './ContactForm.vue'
-import frameworkCards from '@/data/frameworks.json'
-import skills from '@/data/skills.json'
-import projects from '@/data/projects.json'
-</script>
