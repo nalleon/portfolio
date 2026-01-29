@@ -64,6 +64,8 @@ Además se utilizó esta paleta de colores:
     <img src=""/>
 </div>
 
+Cabe destacar que, el diseño principal se basa aún así en la plantilla proporcionada por el profesorado para la actividad.
+
 ### Componentes
 
 #### _Navbar:_
@@ -458,6 +460,9 @@ Finalmente, llegamos al componente  principal de la aplicación:
     import projects from '@/data/projects.json'
 </script>
 ```
+Como podemos apreciar, este componente se encarga de cargar el resto, proporcionandoles los datos por props, y de crear varias secciones para organizar el contenido.
+
+La foto utilizada ha sido sacada de [CreativeCommon Search](https://search.creativecommons.org/), ya que podiamos o no utilizar una foto nuestra.
 
 ### Resultado
 
