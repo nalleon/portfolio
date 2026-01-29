@@ -12,8 +12,13 @@ Práctica de Vue + TypeScript, Pinia y Tailwind desarrollada para los módulos d
 
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
 - [Estructura](#estructura)
-<!-- - [Despliegue](#despliegue) -->
-- []()
+- [Decisiones de diseño](#decisiones-de-diseño)
+- [Componentes](#componentes)
+    - [Navbar](#navbar)
+    - [ProjectCard](#projectcard)
+    - [SkillCard](#skillcard)
+    - [FrameworkCard](#frameworkcard)
+    - [Home](#home)
 - [Resultado](#resultado)
 
 ### Tecnologías utilizadas
