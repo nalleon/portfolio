@@ -2,49 +2,49 @@
   {
     "title": "Java",
     "description": "Desarrollo en entorno de servidor.",
-    "icon": "/langs/java.svg",
+    "icon": "langs/java.svg",
     "level": 5
   },
   {
     "title": "PHP",
     "description": "Desarrollo en entorno de servidor.",
-    "icon": "/langs/php.svg",
+    "icon": "langs/php.svg",
     "level": 4
   },
   {
     "title": "JavaScript",
     "description": "Desarrollo en entorno de cliente.",
-    "icon": "/langs/js.svg",
+    "icon": "langs/js.svg",
     "level": 5
   },
   {
     "title": "TypeScript",
     "description": "Desarrollo en entorno de cliente.",
-    "icon": "/langs/ts.svg",
+    "icon": "langs/ts.svg",
     "level": 5
   },
   {
     "title": "Python",
     "description": "Desarrollo en entorno de servidor.",
-    "icon": "/langs/python.svg",
+    "icon": "langs/python.svg",
     "level": 4
   },
   {
     "title": "Nginx",
     "description": "Despliegue de aplicaciones.",
-    "icon": "/other/nginx.svg",
+    "icon": "other/nginx.svg",
     "level": 4
   },
   {
     "title": "Docker",
     "description": "Despliegue de aplicaciones.",
-    "icon": "/other/docker.svg",
+    "icon": "other/docker.svg",
     "level": 4
   },
   {
     "title": "Maven",
     "description": "Creación y gestión de proyectos Java.",
-    "icon": "/other/maven.svg",
+    "icon": "other/maven.svg",
     "level": 5
   }
 ]

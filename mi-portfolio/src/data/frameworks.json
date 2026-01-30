@@ -3,19 +3,19 @@
     "title": "React + React Native, Vue, Tailwind CSS & Bootstrap",
     "description": "Desarrollo de SPAs modernas y aplicaciones frontend.",
     "icons": [
-      { "src": "/frameworks/react.svg", "alt": "React" },
-      { "src": "/frameworks/vue.svg", "alt": "Vue" },
-      { "src": "/frameworks/tailwind.svg", "alt": "Tailwind" },
-      { "src": "/frameworks/bootstrap.svg", "alt": "Bootstrap" }
+      { "src": "frameworks/react.svg", "alt": "React" },
+      { "src": "frameworks/vue.svg", "alt": "Vue" },
+      { "src": "frameworks/tailwind.svg", "alt": "Tailwind" },
+      { "src": "frameworks/bootstrap.svg", "alt": "Bootstrap" }
     ]
   },
   {
     "title": "Spring Boot, Laravel & Django",
     "description": "APIs REST, arquitectura backend y lógica de negocio.",
     "icons": [
-      { "src": "/frameworks/spring.svg", "alt": "Spring Boot" },
-      { "src": "/frameworks/laravel.svg", "alt": "Laravel" },
-      { "src": "/frameworks/django.svg", "alt": "Django" }
+      { "src": "frameworks/spring.svg", "alt": "Spring Boot" },
+      { "src": "frameworks/laravel.svg", "alt": "Laravel" },
+      { "src": "frameworks/django.svg", "alt": "Django" }
     ]
   }
 ]

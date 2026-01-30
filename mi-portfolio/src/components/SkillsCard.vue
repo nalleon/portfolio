@@ -30,5 +30,8 @@
 import type { SkillCard } from '../models/SkillCard'
 
 defineProps<SkillCard>()
+
+
+
 </script>
 

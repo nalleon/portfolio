@@ -7,6 +7,17 @@ import ContactForm from './ContactForm.vue'
 import frameworkCards from '@/data/frameworks.json'
 import skills from '@/data/skills.json'
 import projects from '@/data/projects.json'
+
+const base = import.meta.env.BASE_URL
+
+// frameworkCards.icons.forEach(element => {
+//     element.src = base + element.src
+// });
+
+// skills.forEach(element => {
+//     element.icon = base + icon
+// });
+
 </script>
 
 <template>
@@ -160,4 +171,3 @@ import projects from '@/data/projects.json'
         </div>
     </div>
 </template>
-
