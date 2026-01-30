@@ -26,7 +26,7 @@ Práctica de Vue + TypeScript, Pinia y Tailwind desarrollada para los módulos d
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?logo=vue.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.x-3178C6?logo=typescript&logoColor=white)
-![Pinia](https://img.shields.io/badge/Pinia-Store-F7D336?logo=pinia&logoColor=black)
+![Pinia](https://img.shields.io/badge/Pinia-Store-F7D336?logo=pinia&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38B2AC?logo=tailwind-css&logoColor=white)
 
 ### Estructura
