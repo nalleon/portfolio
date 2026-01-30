@@ -19,6 +19,7 @@ Práctica de Vue + TypeScript, Pinia y Tailwind desarrollada para los módulos d
     - [SkillCard](#skillcard)
     - [FrameworkCard](#frameworkcard)
     - [Home](#home)
+- [Despliegue](#despliegue)
 - [Resultado](#resultado)
 
 ### Tecnologías utilizadas
@@ -466,7 +467,39 @@ Como podemos apreciar, este componente se encarga de cargar el resto, proporcion
 
 La foto utilizada ha sido sacada de [CreativeCommon Search](https://search.creativecommons.org/), ya que podiamos o no utilizar una foto nuestra.
 
+### Despliegue
+
+Para el despliegue se ha utilizado `gh-pages` de la siguiente manera y utilizando la documentación oficial de Vue:
+
+1. Accedemos a la carpeta `mi-portfolio/` del repositorio:
+
+```bash
+cd mi-portfolio
+```
+
+2. Instalamos `gh-pages`
+
+```bash
+npm install --save-dev gh-pages
+```
+
+3. Añadimos los siguientes scripts a `package.json`:
+
+```json
+"predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
+```
+
+4. Ejecutamos el siguiente comando para desplegar:
+
+```bash
+npm run deploy
+```
+
+
 ### Resultado
+
+Podemos acceder al portfolio en este [enlace](https://nalleon.github.io/portfolio/).
 
 <div align="center">
     <img src="./img/img02.png"/>
