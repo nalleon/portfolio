@@ -61,10 +61,12 @@ De cara al diseño, la aplicación acabó teniendo las siguiente característica
 Además se utilizó esta paleta de colores:
 
 <div align="center">
-    <img src=""/>
+    <img src="./img/img01.png"/>
 </div>
 
-Cabe destacar que, el diseño principal se basa aún así en la plantilla proporcionada por el profesorado para la actividad.
+>  Creada utilizando [Colormind](http://colormind.io/).
+
+Cabe destacar que, el diseño principal se **basa** aún así en la **plantilla proporcionada por el profesorado** para la actividad.
 
 ### Componentes
 
@@ -465,5 +467,12 @@ Como podemos apreciar, este componente se encarga de cargar el resto, proporcion
 La foto utilizada ha sido sacada de [CreativeCommon Search](https://search.creativecommons.org/), ya que podiamos o no utilizar una foto nuestra.
 
 ### Resultado
+
+<div align="center">
+    <img src="./img/img02.png"/>
+    <img src="./img/img03.png"/>
+    <img src="./img/img04.png"/>
+    <img src="./img/img05.png"/>
+</div>
 
 </div>
