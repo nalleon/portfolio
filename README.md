@@ -1,8 +1,8 @@
 <div align="justify">
 
-# portfolio
+# Portfolio
 
-#### 📜 Autor: Nabil León Álvarez ([@nalleon](https://github.com/nalleon))
+#### Autor: Nabil León Álvarez ([@nalleon](https://github.com/nalleon))
 
 <br>
 
@@ -501,11 +501,5 @@ npm run deploy
 
 Podemos acceder al portfolio en este [enlace](https://nalleon.github.io/portfolio/).
 
-<div align="center">
-    <img src="./img/img02.png"/>
-    <img src="./img/img03.png"/>
-    <img src="./img/img04.png"/>
-    <img src="./img/img05.png"/>
-</div>
 
 </div>
