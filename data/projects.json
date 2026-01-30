@@ -1,0 +1,42 @@
+[
+  {
+    "period": "2024–2025",
+    "projects": [
+      {
+        "title": "MGS - Wiki",
+        "description": "Java + Spring",
+        "link": "https://github.com/nalleon/mgs-project"
+      },
+      {
+        "title": "Adivina el personaje de FE8",
+        "description": "TypeScript + Vue, CSS + Tailwind",
+        "link": "https://github.com/mackstm/fire-emblem-project"
+      },
+      {
+        "title": "Buscaminas",
+        "description": "TypeScript + React, CSS + Bootstrap",
+        "link": "https://github.com/nalleon/minesweeper"
+      }
+    ]
+  },
+  {
+    "period": "2025–2026",
+    "projects": [
+      {
+        "title": "JSpotify",
+        "description": "CSS, HTML y JS",
+        "link": "https://github.com/nalleon/jspotify"
+      },
+      {
+        "title": "Tribu",
+        "description": "Python + Django, CSS",
+        "link": "https://github.com/nalleon/tribu"
+      },
+      {
+        "title": "Lumino",
+        "description": "Python + Django, CSS + Bootstrap, Zensical",
+        "link": "https://github.com/nalleon/lumino"
+      }
+    ]
+  }
+]
